@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "lapis_tools",
+	"version": "1.0",
+	"name": "Lapis Tools",
+	"description": "Adds lapis armour and tools! These mystical items get better enchantments when used on an enchantment table.",
+	"authors": [
+		"Mr Apples"
+	],
+	"contact": {
+		"Email": "aidan@hethos.org"
+	},
+	"license": "UNLICENSED",
+	"icon": "assets/lapis_tools/textures/item/lapis_pickaxe.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.hethos.LapisTools"
+		],
+		"client": [
+			"org.hethos.LapisToolsClient"
+		]
+	},
+	"mixins": [
+		"LapisTools.mixins.json",
+		{
+			"config": "LapisTools.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

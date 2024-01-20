@@ -1,0 +1,43 @@
+/give @s tutorial:custom_item
+/give @s
+/give @s lapis_tools:lapis_axe
+/locate biome minecraft:forest
+/tp @s 665 92 -941
+/give @s lapis_tools:lapis_axe
+/give @s lapis_tools:lapis_axe 64
+/xp set @s 1000000
+/xp set @s 10
+/xp set @s 100
+/xp set @s 50
+/xp set @s 10
+/give @s lapis_tools:lapis_axe
+/give @s lapis_tools:lapis_shovel
+/give @s lapis_tools:lapis_sword
+/give @s lapis_tools:lapis_pickaxe
+/give @s lapis_tools:lapis_hoe
+/give @s lapis_tools:lapis_axe
+/give @s lapis_tools:lapis_sword
+/give @s lapis_tools:lapis_pickaxe
+/give @s lapis_tools:lapis_shovel
+/give @s lapis_tools:lapis_hoe
+/give @s lapis_tools:lapis_sword
+/give @s lapis_tools:lapis_axe
+/kill @s
+/give @s lapis_tools:lapis_boots
+/give @s lapis_tools:lapis_leggings
+/give @s lapis_tools:lapis_chestplate
+/give @s lapis_tools:lapis_helmet
+/random roll 10 minecraft:blocks/acacia_leaves
+/me
+/jfr start
+/jfr stop
+/give @s lapis_tools:lapis_boots
+/give @s lapis_tools:lapis_chestplate
+/give @s lapis_tools:lapis_leggings
+/give @s lapis_tools:lapis_helmet
+/give @s lapis_tools:lapis_helmet 64
+/give @s lapis_tools:lapis_leggings 64
+/give @s lapis_tools:lapis_chestplate 55
+/give @s lapis_tools:lapis_boots 27
+/xp add @s 100
+/give @s minecraft:leather_helmet 27

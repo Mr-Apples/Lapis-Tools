@@ -1,0 +1,124 @@
+{
+  "startedEpoch": 1704174504831,
+  "endedEpoch": 1704174511381,
+  "durationMs": 6549,
+  "heap": {
+    "allocationRateBytesPerSecond": 3.60710144E7,
+    "gcCount": 2,
+    "gcOverHeadPercent": 0.10902428,
+    "gcTotalDurationMs": 714
+  },
+  "cpuPercent": {
+    "jvm": {
+      "min": 0.0,
+      "average": 0.003983799057702224,
+      "max": 0.01005025114864111
+    },
+    "userJvm": {
+      "min": 0.0,
+      "average": 0.5221315622329712,
+      "max": 0.7173366546630859
+    },
+    "system": {
+      "min": 0.0,
+      "average": 0.5445482631524404,
+      "max": 0.7449748516082764
+    }
+  },
+  "network": {
+    "sent": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    },
+    "received": {
+      "totalBytes": 0,
+      "count": 0,
+      "bytesPerSecond": 0.0,
+      "countPerSecond": 0.0,
+      "topContributors": []
+    }
+  },
+  "fileIO": {
+    "write": {
+      "totalBytes": 1139343,
+      "count": 259,
+      "bytesPerSecond": 189890.5,
+      "countPerSecond": 43.166666666666664,
+      "topContributors": [
+        {
+          "path": "/home/apples/Projects/fabric-example-mod-1.20/run/saves/New World/entities/r.-1.-1.mca",
+          "totalBytes": 1037378
+        },
+        {
+          "path": "/home/apples/Projects/fabric-example-mod-1.20/run/saves/New World/region/r.-1.-1.mca",
+          "totalBytes": 59358
+        },
+        {
+          "path": "/home/apples/Projects/fabric-example-mod-1.20/run/saves/New World/entities/r.0.-1.mca",
+          "totalBytes": 26655
+        },
+        {
+          "path": "/home/apples/Projects/fabric-example-mod-1.20/run/saves/New World/advancements/dfcad48a-e020-38be-9232-c84cb8bb8cf2.json",
+          "totalBytes": 5651
+        },
+        {
+          "path": "/home/apples/Projects/fabric-example-mod-1.20/run/saves/New World/level6446147974525728439.dat",
+          "totalBytes": 3177
+        },
+        {
+          "path": "/home/apples/Projects/fabric-example-mod-1.20/run/saves/New World/playerdata/dfcad48a-e020-38be-9232-c84cb8bb8cf2-11292081256867580384.dat",
+          "totalBytes": 1773
+        },
+        {
+          "path": "logs/debug.log",
+          "totalBytes": 1152
+        },
+        {
+          "path": "/home/apples/Projects/fabric-example-mod-1.20/run/command_history.txt",
+          "totalBytes": 875
+        },
+        {
+          "path": "/home/apples/Projects/fabric-example-mod-1.20/run/saves/New World/data/random_sequences.dat",
+          "totalBytes": 865
+        },
+        {
+          "path": "logs/latest.log",
+          "totalBytes": 687
+        }
+      ]
+    },
+    "read": {
+      "totalBytes": 3988,
+      "count": 7,
+      "bytesPerSecond": 664.6666666666666,
+      "countPerSecond": 1.1666666666666667,
+      "topContributors": [
+        {
+          "path": "/home/apples/Projects/fabric-example-mod-1.20/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-common-1f338b2c9f/1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2/minecraft-common-1f338b2c9f-1.20.4-net.fabricmc.yarn.1_20_4.1.20.4+build.3-v2.jar",
+          "totalBytes": 3220
+        },
+        {
+          "path": "/dev/urandom",
+          "totalBytes": 768
+        }
+      ]
+    }
+  },
+  "serverTick": {
+    "minMs": 13.885983,
+    "averageMs": 45.0963845,
+    "maxMs": 66.96692,
+    "p99": 66.48045400000001,
+    "p90": 62.10226,
+    "p75": 55.725367,
+    "p50": 46.342166
+  },
+  "threadAllocation": [],
+  "chunkGen": {
+    "durationNanosTotal": 0.0,
+    "status": []
+  }
+}

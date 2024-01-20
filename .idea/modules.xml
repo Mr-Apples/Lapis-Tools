@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lapis_Tools.client.iml" filepath="$PROJECT_DIR$/.idea/modules/Lapis_Tools.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lapis_Tools.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lapis_Tools.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lapis_Tools.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lapis_Tools.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric-example-mod-1.20.client.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric-example-mod-1.20.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric-example-mod-1.20.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric-example-mod-1.20.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric-example-mod-1.20.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric-example-mod-1.20.test.iml" />
+    </modules>
+  </component>
+</project>
