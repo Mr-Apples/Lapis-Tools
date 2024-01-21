@@ -48,10 +48,14 @@ public class LapisTools implements ModInitializer {
 
 			Registry.register(Registries.ITEM, new Identifier("lapis_tools", "lapis_boots"), LAPIS_MATERIAL_BOOTS);
 
-			// Add sword and axe to create inventory combat section
+			// Add sword, axe and armour to create inventory combat section
 			ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(content -> {
 				content.addBefore(Items.DIAMOND_SWORD, LAPIS_SWORD);
 				content.addBefore(Items.DIAMOND_AXE, LAPIS_AXE);
+				content.addBefore(Items.DIAMOND_HELMET, LAPIS_MATERIAL_HELMET);
+				content.addAfter(LAPIS_MATERIAL_HELMET, LAPIS_MATERIAL_CHESTPLATE);
+				content.addAfter(LAPIS_MATERIAL_CHESTPLATE, LAPIS_MATERIAL_LEGGINGS);
+				content.addAfter(LAPIS_MATERIAL_LEGGINGS, LAPIS_MATERIAL_BOOTS);
 			});
 
 			// Add tools to create inventory tools section
